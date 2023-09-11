@@ -21,8 +21,8 @@
 
   padding: 1rem 2rem;
   border-radius: 3rem;
-  background: #1f2123;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  background: #d7ebff;
+  /* box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527; */
 }
 
 .search input {
@@ -34,7 +34,7 @@
 
   outline: none;
   color: #a1a1a1;
-  background: #1f2123;
+  background: #d7ebff;
 }
 
 .search-icon {
@@ -103,5 +103,13 @@
   text-align: left;
   padding-left: 20px;
   
+}
+.br_1{
+  color: #faef50;
+}
+.br_2{
+  
+  color: #454545;
+  text-decoration: underline;
 }
 

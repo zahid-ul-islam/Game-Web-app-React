@@ -8,7 +8,9 @@ const GameCard =({game})=> {
         <img src={game.background_image} alt="gameImage"  />
     </div>
     <div className="description">
-        <span> {game.rating} </span>
+        {game?.genres.length>0 ?(
+          <span>{game.genres[0].name} ({game.rating})</span>
+        ): <span>No genres ({game.ratig})</span> }
         <h3> {game.name} </h3>
     </div>
     </div>
